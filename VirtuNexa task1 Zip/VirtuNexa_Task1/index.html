@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Architecture</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home"><i class="fas fa-city"></i> ARCHI<span>HUB</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1>Redefining Urban Spaces</h1>
+                <p>Innovative architectural solutions for modern living</p>
+                <a href="#projects" class="btn">Explore Our Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.squarespace-cdn.com/content/v1/5cfd695a1587da0001bffda5/2641ec56-4538-4e76-a980-6c0ea5c02c99/architecture-precedents-Heydar-Aliyev-Center.jpg" alt="Modern architecture building">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="https://cdn.fairfieldresidential.com/2017/11/RIZE-Irvine-CA-Pool-Rendering.jpg" alt="Luxury residential complex">
+                <div class="project-info">
+                    <h3>Azure Heights</h3>
+                    <p>Luxury residential towers with panoramic city views</p>
+                    <span class="year">2023</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://assets.architecturaldigest.in/photos/6008350f08ae763b9ae84e87/16:9/w_2560%2Cc_limit/school-of-planning-and-architecture-vijayawada-main-1366x768.jpg" alt="Contemporary office building">
+                <div class="project-info">
+                    <h3>Vertex Corporate Hub</h3>
+                    <p>State-of-the-art workspace with sustainable design</p>
+                    <span class="year">2022</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://www.guestandtanner.co.zw/uploadedfiles/2b/bd/8a/2bbd8ac9-0fc6-4dfa-b42e-65859666d312.webp" alt="Modern glass house">
+                <div class="project-info">
+                    <h3>Horizon Residence</h3>
+                    <p>Minimalist glass house blending with natural surroundings</p>
+                    <span class="year">2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Our Architectural Philosophy</h2>
+                <p>Founded in 2010, ArchiHub has been at the forefront of innovative architectural design, blending functionality with aesthetic excellence. Our team of award-winning architects brings diverse perspectives to create spaces that inspire.</p>
+                <p>We believe architecture should harmonize with its environment while meeting the practical needs of its users. Our designs reflect this balance, creating buildings that are both beautiful and purposeful.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://i.pinimg.com/736x/87/9e/97/879e978a4913aeafbba405cdea83b983.jpg" alt="Our team">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
